@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="KuryeDataSet16" targetNamespace="http://tempuri.org/KuryeDataSet16.xsd" xmlns:mstns="http://tempuri.org/KuryeDataSet16.xsd" xmlns="http://tempuri.org/KuryeDataSet16.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="KuryeConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="KuryeConnectionString (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.Kurye_Otomasyonu.Properties.Settings.GlobalReference.Default.KuryeConnectionString" Provider="System.Data.SqlClient" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="Tbl_KuryeTableAdapter" GeneratorDataComponentClassName="Tbl_KuryeTableAdapter" Name="Tbl_Kurye" UserDataComponentName="Tbl_KuryeTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="KuryeConnectionString (Settings)" DbObjectName="Kurye.dbo.Tbl_Kurye" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT KuryeAd, KuryeSoyad, KuryeSehir FROM dbo.Tbl_Kurye</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="KuryeAd" DataSetColumn="KuryeAd" />
+              <Mapping SourceColumn="KuryeSoyad" DataSetColumn="KuryeSoyad" />
+              <Mapping SourceColumn="KuryeSehir" DataSetColumn="KuryeSehir" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+        </Tables>
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="KuryeDataSet16" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="True" msprop:Generator_DataSetName="KuryeDataSet16" msprop:Generator_UserDSName="KuryeDataSet16">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="Tbl_Kurye" msprop:Generator_TableClassName="Tbl_KuryeDataTable" msprop:Generator_TableVarName="tableTbl_Kurye" msprop:Generator_TablePropName="Tbl_Kurye" msprop:Generator_RowDeletingName="Tbl_KuryeRowDeleting" msprop:Generator_RowChangingName="Tbl_KuryeRowChanging" msprop:Generator_RowEvHandlerName="Tbl_KuryeRowChangeEventHandler" msprop:Generator_RowDeletedName="Tbl_KuryeRowDeleted" msprop:Generator_UserTableName="Tbl_Kurye" msprop:Generator_RowChangedName="Tbl_KuryeRowChanged" msprop:Generator_RowEvArgName="Tbl_KuryeRowChangeEvent" msprop:Generator_RowClassName="Tbl_KuryeRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="KuryeAd" msprop:Generator_ColumnVarNameInTable="columnKuryeAd" msprop:Generator_ColumnPropNameInRow="KuryeAd" msprop:Generator_ColumnPropNameInTable="KuryeAdColumn" msprop:Generator_UserColumnName="KuryeAd">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="20" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="KuryeSoyad" msprop:Generator_ColumnVarNameInTable="columnKuryeSoyad" msprop:Generator_ColumnPropNameInRow="KuryeSoyad" msprop:Generator_ColumnPropNameInTable="KuryeSoyadColumn" msprop:Generator_UserColumnName="KuryeSoyad">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="20" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="KuryeSehir" msprop:Generator_ColumnVarNameInTable="columnKuryeSehir" msprop:Generator_ColumnPropNameInRow="KuryeSehir" msprop:Generator_ColumnPropNameInTable="KuryeSehirColumn" msprop:Generator_UserColumnName="KuryeSehir">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="20" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

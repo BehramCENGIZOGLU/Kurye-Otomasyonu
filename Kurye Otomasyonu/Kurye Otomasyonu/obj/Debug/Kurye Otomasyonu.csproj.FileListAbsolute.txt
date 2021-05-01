@@ -1,0 +1,42 @@
+C:\Users\Lenovo\Desktop\veri tabanı destekli görsel programlama ödevi\Kurye Otomasyonu\Kurye Otomasyonu\bin\Debug\Kurye Otomasyonu.exe.config
+C:\Users\Lenovo\Desktop\veri tabanı destekli görsel programlama ödevi\Kurye Otomasyonu\Kurye Otomasyonu\bin\Debug\Kurye Otomasyonu.exe
+C:\Users\Lenovo\Desktop\veri tabanı destekli görsel programlama ödevi\Kurye Otomasyonu\Kurye Otomasyonu\bin\Debug\Kurye Otomasyonu.pdb
+C:\Users\Lenovo\Desktop\veri tabanı destekli görsel programlama ödevi\Kurye Otomasyonu\Kurye Otomasyonu\obj\Debug\Kurye Otomasyonu.csprojAssemblyReference.cache
+C:\Users\Lenovo\Desktop\veri tabanı destekli görsel programlama ödevi\Kurye Otomasyonu\Kurye Otomasyonu\obj\Debug\Kurye_Otomasyonu.Properties.Resources.resources
+C:\Users\Lenovo\Desktop\veri tabanı destekli görsel programlama ödevi\Kurye Otomasyonu\Kurye Otomasyonu\obj\Debug\Kurye Otomasyonu.csproj.GenerateResource.cache
+C:\Users\Lenovo\Desktop\veri tabanı destekli görsel programlama ödevi\Kurye Otomasyonu\Kurye Otomasyonu\obj\Debug\Kurye Otomasyonu.csproj.CoreCompileInputs.cache
+C:\Users\Lenovo\Desktop\veri tabanı destekli görsel programlama ödevi\Kurye Otomasyonu\Kurye Otomasyonu\obj\Debug\Kurye Otomasyonu.exe
+C:\Users\Lenovo\Desktop\veri tabanı destekli görsel programlama ödevi\Kurye Otomasyonu\Kurye Otomasyonu\obj\Debug\Kurye Otomasyonu.pdb
+C:\Users\Lenovo\Desktop\veri tabanı destekli görsel programlama ödevi\Kurye Otomasyonu\Kurye Otomasyonu\obj\Debug\Kurye_Otomasyonu.FrmKurye.resources
+C:\Users\Lenovo\Desktop\veri tabanı destekli görsel programlama ödevi\Kurye Otomasyonu\Kurye Otomasyonu\obj\Debug\Kurye_Otomasyonu.FrmPaket.resources
+C:\Users\Lenovo\Desktop\veri tabanı destekli görsel programlama ödevi\Kurye Otomasyonu\Kurye Otomasyonu\obj\Debug\Kurye_Otomasyonu.FrmKuryePaket.resources
+C:\Users\Lenovo\Desktop\veri tabanı destekli görsel programlama ödevi\Kurye Otomasyonu\Kurye Otomasyonu\obj\Debug\Kurye_Otomasyonu.FrmKuryePaket1.resources
+C:\Users\Lenovo\Desktop\veri tabanı destekli görsel programlama ödevi\Kurye Otomasyonu\Kurye Otomasyonu\obj\Debug\Kurye_Otomasyonu.FrmKurye_Paket.resources
+C:\Users\Lenovo\Desktop\derslerim için\Kurye Otomasyonu\Kurye Otomasyonu\bin\Debug\Kurye Otomasyonu.exe.config
+C:\Users\Lenovo\Desktop\derslerim için\Kurye Otomasyonu\Kurye Otomasyonu\bin\Debug\Kurye Otomasyonu.exe
+C:\Users\Lenovo\Desktop\derslerim için\Kurye Otomasyonu\Kurye Otomasyonu\bin\Debug\Kurye Otomasyonu.pdb
+C:\Users\Lenovo\Desktop\derslerim için\Kurye Otomasyonu\Kurye Otomasyonu\obj\Debug\Kurye Otomasyonu.csprojAssemblyReference.cache
+C:\Users\Lenovo\Desktop\derslerim için\Kurye Otomasyonu\Kurye Otomasyonu\obj\Debug\Kurye_Otomasyonu.FrmKurye.resources
+C:\Users\Lenovo\Desktop\derslerim için\Kurye Otomasyonu\Kurye Otomasyonu\obj\Debug\Kurye_Otomasyonu.FrmKuryePaket.resources
+C:\Users\Lenovo\Desktop\derslerim için\Kurye Otomasyonu\Kurye Otomasyonu\obj\Debug\Kurye_Otomasyonu.FrmKuryePaket1.resources
+C:\Users\Lenovo\Desktop\derslerim için\Kurye Otomasyonu\Kurye Otomasyonu\obj\Debug\Kurye_Otomasyonu.FrmKurye_Paket.resources
+C:\Users\Lenovo\Desktop\derslerim için\Kurye Otomasyonu\Kurye Otomasyonu\obj\Debug\Kurye_Otomasyonu.FrmPaket.resources
+C:\Users\Lenovo\Desktop\derslerim için\Kurye Otomasyonu\Kurye Otomasyonu\obj\Debug\Kurye_Otomasyonu.Properties.Resources.resources
+C:\Users\Lenovo\Desktop\derslerim için\Kurye Otomasyonu\Kurye Otomasyonu\obj\Debug\Kurye Otomasyonu.csproj.GenerateResource.cache
+C:\Users\Lenovo\Desktop\derslerim için\Kurye Otomasyonu\Kurye Otomasyonu\obj\Debug\Kurye Otomasyonu.csproj.CoreCompileInputs.cache
+C:\Users\Lenovo\Desktop\derslerim için\Kurye Otomasyonu\Kurye Otomasyonu\obj\Debug\Kurye Otomasyonu.exe
+C:\Users\Lenovo\Desktop\derslerim için\Kurye Otomasyonu\Kurye Otomasyonu\obj\Debug\Kurye Otomasyonu.pdb
+E:\derslerim için\Kurye Otomasyonu\Kurye Otomasyonu\bin\Debug\Kurye Otomasyonu.exe.config
+E:\derslerim için\Kurye Otomasyonu\Kurye Otomasyonu\bin\Debug\Kurye Otomasyonu.exe
+E:\derslerim için\Kurye Otomasyonu\Kurye Otomasyonu\bin\Debug\Kurye Otomasyonu.pdb
+E:\derslerim için\Kurye Otomasyonu\Kurye Otomasyonu\obj\Debug\Kurye Otomasyonu.csprojAssemblyReference.cache
+E:\derslerim için\Kurye Otomasyonu\Kurye Otomasyonu\obj\Debug\Kurye_Otomasyonu.FrmKurye.resources
+E:\derslerim için\Kurye Otomasyonu\Kurye Otomasyonu\obj\Debug\Kurye_Otomasyonu.FrmKuryePaket.resources
+E:\derslerim için\Kurye Otomasyonu\Kurye Otomasyonu\obj\Debug\Kurye_Otomasyonu.FrmKuryePaket1.resources
+E:\derslerim için\Kurye Otomasyonu\Kurye Otomasyonu\obj\Debug\Kurye_Otomasyonu.FrmKurye_Paket.resources
+E:\derslerim için\Kurye Otomasyonu\Kurye Otomasyonu\obj\Debug\Kurye_Otomasyonu.FrmPaket.resources
+E:\derslerim için\Kurye Otomasyonu\Kurye Otomasyonu\obj\Debug\Kurye_Otomasyonu.Properties.Resources.resources
+E:\derslerim için\Kurye Otomasyonu\Kurye Otomasyonu\obj\Debug\Kurye Otomasyonu.csproj.GenerateResource.cache
+E:\derslerim için\Kurye Otomasyonu\Kurye Otomasyonu\obj\Debug\Kurye Otomasyonu.csproj.CoreCompileInputs.cache
+E:\derslerim için\Kurye Otomasyonu\Kurye Otomasyonu\obj\Debug\Kurye Otomasyonu.exe
+E:\derslerim için\Kurye Otomasyonu\Kurye Otomasyonu\obj\Debug\Kurye Otomasyonu.pdb

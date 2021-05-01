@@ -1,0 +1,567 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{8BE97878-3E48-480D-A5EE-92CFCBBA1B77}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Kurye_Otomasyonu</RootNamespace>
+    <AssemblyName>Kurye Otomasyonu</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="FrmKurye.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmKurye.Designer.cs">
+      <DependentUpon>FrmKurye.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmKuryePaket.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmKuryePaket.Designer.cs">
+      <DependentUpon>FrmKuryePaket.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmKuryePaket1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmKuryePaket1.Designer.cs">
+      <DependentUpon>FrmKuryePaket1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmKurye_Paket.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmKurye_Paket.Designer.cs">
+      <DependentUpon>FrmKurye_Paket.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmPaket.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmPaket.Designer.cs">
+      <DependentUpon>FrmPaket.cs</DependentUpon>
+    </Compile>
+    <Compile Include="KuryeDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>KuryeDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="KuryeDataSet1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>KuryeDataSet1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="KuryeDataSet10.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>KuryeDataSet10.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="KuryeDataSet11.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>KuryeDataSet11.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="KuryeDataSet12.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>KuryeDataSet12.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="KuryeDataSet13.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>KuryeDataSet13.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="KuryeDataSet14.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>KuryeDataSet14.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="KuryeDataSet15.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>KuryeDataSet15.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="KuryeDataSet16.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>KuryeDataSet16.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="KuryeDataSet17.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>KuryeDataSet17.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="KuryeDataSet18.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>KuryeDataSet18.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="KuryeDataSet19.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>KuryeDataSet19.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="KuryeDataSet2.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>KuryeDataSet2.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="KuryeDataSet20.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>KuryeDataSet20.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="KuryeDataSet21.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>KuryeDataSet21.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="KuryeDataSet22.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>KuryeDataSet22.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="KuryeDataSet23.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>KuryeDataSet23.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="KuryeDataSet24.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>KuryeDataSet24.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="KuryeDataSet25.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>KuryeDataSet25.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="KuryeDataSet26.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>KuryeDataSet26.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="KuryeDataSet3.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>KuryeDataSet3.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="KuryeDataSet4.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>KuryeDataSet4.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="KuryeDataSet5.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>KuryeDataSet5.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="KuryeDataSet6.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>KuryeDataSet6.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="KuryeDataSet7.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>KuryeDataSet7.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="KuryeDataSet8.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>KuryeDataSet8.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="KuryeDataSet9.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>KuryeDataSet9.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="PaketDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>PaketDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="FrmKurye.resx">
+      <DependentUpon>FrmKurye.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmKuryePaket.resx">
+      <DependentUpon>FrmKuryePaket.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmKuryePaket1.resx">
+      <DependentUpon>FrmKuryePaket1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmKurye_Paket.resx">
+      <DependentUpon>FrmKurye_Paket.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmPaket.resx">
+      <DependentUpon>FrmPaket.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <None Include="KuryeDataSet.xsc">
+      <DependentUpon>KuryeDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="KuryeDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>KuryeDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="KuryeDataSet.xss">
+      <DependentUpon>KuryeDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="KuryeDataSet1.xsc">
+      <DependentUpon>KuryeDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="KuryeDataSet1.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>KuryeDataSet1.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="KuryeDataSet1.xss">
+      <DependentUpon>KuryeDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="KuryeDataSet10.xsc">
+      <DependentUpon>KuryeDataSet10.xsd</DependentUpon>
+    </None>
+    <None Include="KuryeDataSet10.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>KuryeDataSet10.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="KuryeDataSet10.xss">
+      <DependentUpon>KuryeDataSet10.xsd</DependentUpon>
+    </None>
+    <None Include="KuryeDataSet11.xsc">
+      <DependentUpon>KuryeDataSet11.xsd</DependentUpon>
+    </None>
+    <None Include="KuryeDataSet11.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>KuryeDataSet11.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="KuryeDataSet11.xss">
+      <DependentUpon>KuryeDataSet11.xsd</DependentUpon>
+    </None>
+    <None Include="KuryeDataSet12.xsc">
+      <DependentUpon>KuryeDataSet12.xsd</DependentUpon>
+    </None>
+    <None Include="KuryeDataSet12.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>KuryeDataSet12.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="KuryeDataSet12.xss">
+      <DependentUpon>KuryeDataSet12.xsd</DependentUpon>
+    </None>
+    <None Include="KuryeDataSet13.xsc">
+      <DependentUpon>KuryeDataSet13.xsd</DependentUpon>
+    </None>
+    <None Include="KuryeDataSet13.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>KuryeDataSet13.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="KuryeDataSet13.xss">
+      <DependentUpon>KuryeDataSet13.xsd</DependentUpon>
+    </None>
+    <None Include="KuryeDataSet14.xsc">
+      <DependentUpon>KuryeDataSet14.xsd</DependentUpon>
+    </None>
+    <None Include="KuryeDataSet14.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>KuryeDataSet14.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="KuryeDataSet14.xss">
+      <DependentUpon>KuryeDataSet14.xsd</DependentUpon>
+    </None>
+    <None Include="KuryeDataSet15.xsc">
+      <DependentUpon>KuryeDataSet15.xsd</DependentUpon>
+    </None>
+    <None Include="KuryeDataSet15.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>KuryeDataSet15.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="KuryeDataSet15.xss">
+      <DependentUpon>KuryeDataSet15.xsd</DependentUpon>
+    </None>
+    <None Include="KuryeDataSet16.xsc">
+      <DependentUpon>KuryeDataSet16.xsd</DependentUpon>
+    </None>
+    <None Include="KuryeDataSet16.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>KuryeDataSet16.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="KuryeDataSet16.xss">
+      <DependentUpon>KuryeDataSet16.xsd</DependentUpon>
+    </None>
+    <None Include="KuryeDataSet17.xsc">
+      <DependentUpon>KuryeDataSet17.xsd</DependentUpon>
+    </None>
+    <None Include="KuryeDataSet17.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>KuryeDataSet17.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="KuryeDataSet17.xss">
+      <DependentUpon>KuryeDataSet17.xsd</DependentUpon>
+    </None>
+    <None Include="KuryeDataSet18.xsc">
+      <DependentUpon>KuryeDataSet18.xsd</DependentUpon>
+    </None>
+    <None Include="KuryeDataSet18.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>KuryeDataSet18.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="KuryeDataSet18.xss">
+      <DependentUpon>KuryeDataSet18.xsd</DependentUpon>
+    </None>
+    <None Include="KuryeDataSet19.xsc">
+      <DependentUpon>KuryeDataSet19.xsd</DependentUpon>
+    </None>
+    <None Include="KuryeDataSet19.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>KuryeDataSet19.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="KuryeDataSet19.xss">
+      <DependentUpon>KuryeDataSet19.xsd</DependentUpon>
+    </None>
+    <None Include="KuryeDataSet2.xsc">
+      <DependentUpon>KuryeDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="KuryeDataSet2.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>KuryeDataSet2.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="KuryeDataSet2.xss">
+      <DependentUpon>KuryeDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="KuryeDataSet20.xsc">
+      <DependentUpon>KuryeDataSet20.xsd</DependentUpon>
+    </None>
+    <None Include="KuryeDataSet20.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>KuryeDataSet20.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="KuryeDataSet20.xss">
+      <DependentUpon>KuryeDataSet20.xsd</DependentUpon>
+    </None>
+    <None Include="KuryeDataSet21.xsc">
+      <DependentUpon>KuryeDataSet21.xsd</DependentUpon>
+    </None>
+    <None Include="KuryeDataSet21.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>KuryeDataSet21.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="KuryeDataSet21.xss">
+      <DependentUpon>KuryeDataSet21.xsd</DependentUpon>
+    </None>
+    <None Include="KuryeDataSet22.xsc">
+      <DependentUpon>KuryeDataSet22.xsd</DependentUpon>
+    </None>
+    <None Include="KuryeDataSet22.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>KuryeDataSet22.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="KuryeDataSet22.xss">
+      <DependentUpon>KuryeDataSet22.xsd</DependentUpon>
+    </None>
+    <None Include="KuryeDataSet23.xsc">
+      <DependentUpon>KuryeDataSet23.xsd</DependentUpon>
+    </None>
+    <None Include="KuryeDataSet23.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>KuryeDataSet23.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="KuryeDataSet23.xss">
+      <DependentUpon>KuryeDataSet23.xsd</DependentUpon>
+    </None>
+    <None Include="KuryeDataSet24.xsc">
+      <DependentUpon>KuryeDataSet24.xsd</DependentUpon>
+    </None>
+    <None Include="KuryeDataSet24.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>KuryeDataSet24.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="KuryeDataSet24.xss">
+      <DependentUpon>KuryeDataSet24.xsd</DependentUpon>
+    </None>
+    <None Include="KuryeDataSet25.xsc">
+      <DependentUpon>KuryeDataSet25.xsd</DependentUpon>
+    </None>
+    <None Include="KuryeDataSet25.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>KuryeDataSet25.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="KuryeDataSet25.xss">
+      <DependentUpon>KuryeDataSet25.xsd</DependentUpon>
+    </None>
+    <None Include="KuryeDataSet26.xsc">
+      <DependentUpon>KuryeDataSet26.xsd</DependentUpon>
+    </None>
+    <None Include="KuryeDataSet26.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>KuryeDataSet26.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="KuryeDataSet26.xss">
+      <DependentUpon>KuryeDataSet26.xsd</DependentUpon>
+    </None>
+    <None Include="KuryeDataSet3.xsc">
+      <DependentUpon>KuryeDataSet3.xsd</DependentUpon>
+    </None>
+    <None Include="KuryeDataSet3.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>KuryeDataSet3.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="KuryeDataSet3.xss">
+      <DependentUpon>KuryeDataSet3.xsd</DependentUpon>
+    </None>
+    <None Include="KuryeDataSet4.xsc">
+      <DependentUpon>KuryeDataSet4.xsd</DependentUpon>
+    </None>
+    <None Include="KuryeDataSet4.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>KuryeDataSet4.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="KuryeDataSet4.xss">
+      <DependentUpon>KuryeDataSet4.xsd</DependentUpon>
+    </None>
+    <None Include="KuryeDataSet5.xsc">
+      <DependentUpon>KuryeDataSet5.xsd</DependentUpon>
+    </None>
+    <None Include="KuryeDataSet5.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>KuryeDataSet5.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="KuryeDataSet5.xss">
+      <DependentUpon>KuryeDataSet5.xsd</DependentUpon>
+    </None>
+    <None Include="KuryeDataSet6.xsc">
+      <DependentUpon>KuryeDataSet6.xsd</DependentUpon>
+    </None>
+    <None Include="KuryeDataSet6.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>KuryeDataSet6.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="KuryeDataSet6.xss">
+      <DependentUpon>KuryeDataSet6.xsd</DependentUpon>
+    </None>
+    <None Include="KuryeDataSet7.xsc">
+      <DependentUpon>KuryeDataSet7.xsd</DependentUpon>
+    </None>
+    <None Include="KuryeDataSet7.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>KuryeDataSet7.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="KuryeDataSet7.xss">
+      <DependentUpon>KuryeDataSet7.xsd</DependentUpon>
+    </None>
+    <None Include="KuryeDataSet8.xsc">
+      <DependentUpon>KuryeDataSet8.xsd</DependentUpon>
+    </None>
+    <None Include="KuryeDataSet8.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>KuryeDataSet8.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="KuryeDataSet8.xss">
+      <DependentUpon>KuryeDataSet8.xsd</DependentUpon>
+    </None>
+    <None Include="KuryeDataSet9.xsc">
+      <DependentUpon>KuryeDataSet9.xsd</DependentUpon>
+    </None>
+    <None Include="KuryeDataSet9.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>KuryeDataSet9.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="KuryeDataSet9.xss">
+      <DependentUpon>KuryeDataSet9.xsd</DependentUpon>
+    </None>
+    <None Include="PaketDataSet.xsc">
+      <DependentUpon>PaketDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="PaketDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>PaketDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="PaketDataSet.xss">
+      <DependentUpon>PaketDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
